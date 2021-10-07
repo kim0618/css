@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>				
+<style type="text/css">								/* 풀어봐야 함 */
+	#wrap{width:500px; margin: auto;}
+	.header{
+		display: flex;
+	}
+	.header h1{width:100%; text-align: center;}
+	.img{ width:100px; height: 100px; box-shadow: 10px 10px 15px black;}
+	.img02{ width:100px; height: 100px; }
+	ul{
+            background-color:gray;  padding:10px 0px 10px 10px;
+                overflow:hidden;
+        }
+        li{ 
+            display:inline;    list-style: none;   
+            padding: 20px 20px 20px 20px;
+            text-align: center;   
+        }
+        li:hover{    background-color:#555555;    }
+        a{ width:100%; text-decoration: none; color:white; }
+        
+        
+        .content{display: flex; }
+        .content_1{ width: 20%;  }
+        .content_2{ width: 50%;  }
+        .content_3{ width: 30%; background-color: fuchsia; ; }
+</style>
+</head>
+<body>
+<div id='wrap'>
+	<div class="header">
+		<img class="img" src="resources/images/16.gif">
+		<h1 >맛집 탐방</h1>
+	</div>
+	<div class="nav">
+		    <ul>
+		        <li><a href="#">HOME</a></li>
+		        <li><a href="#">게시판</a></li>
+		        <li><a href="#">내정보</a></li>
+		    </ul>
+	</div>
+	<div class="content">
+		<div class="content_1">
+			<img class="img02" src="resources/images/16.gif"><br>
+			<img class="img02" src="resources/images/16.gif">
+		</div>
+		<div class="content_2">
+			<div>오늘의 맛집</div>
+			<div>
+				<div style="display: flex;">
+					<div style="width: 200px;">내용11111111111111111</div>
+					<img width="50px" height="50px" src="resources/images/16.gif">
+				</div>
+				<div style="display: flex;">
+					<div style="width: 200px;">내용22222222222222222222</div>
+					<img width="50px" height="50px" src="resources/images/16.gif">
+				</div>
+				<div style="display: flex;">
+					<div style="width: 200px;">내용33333333333333333</div>
+					<img width="50px" height="50px" src="resources/images/16.gif">
+				</div>
+			</div>
+		</div>
+		<div class="content_3">3</div>
+	</div>
+	<div class="footer">
+		바닥
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+	<style type="text/css">
+	* { box-sizing: border-box; }
+	#wrap{ border: 1px solid black; text-align: center;  
+			display: flex; flex-flow: column; }
+	
+	#wrap div{ width: 100%; }
+	#wrap .d01 { order:1; background-color: red; border: 3px solid black; }
+	#wrap .d02 { order:2; display:flex;  border: 1px solid black; border-top: 10px solid black; border-bottom: 10px solid black; }
+	#wrap .d03 { order:3; background-color: pink; height: 100%; border: 3px solid black; }
+	
+	.color01{ order: 1; background-color: yellow; border: 3px solid black; }
+	.color02{ order: 2; background-color: green; padding: 0 300px 300px 300px; text-align: center; border: 3px solid black; }
+	
+	
+	
+	
+	#wrap02{ border: 1px solid black; text-align: center;  
+			display: flex; flex-flow: column; }
+	
+	#wrap02 div{ width: 100%; }
+	#wrap02 .d01 { order:1; background-color: red; border: 3px solid black; }
+	#wrap02 .d02 { order:2; display:flex;  border: 1px solid black; border-top: 10px solid black; border-bottom: 10px solid black; }
+	#wrap02 .d03 { order:3; background-color: pink; height: 100%; border: 3px solid black; }
+	
+	.color03{ order: 1; background-color: yellow; border: 3px solid black; }
+	.color04{ order: 2; background-color: green; padding: 0 225px 300px 225px; text-align: center; border: 3px solid black; }
+	.color05{ order: 3; background-color: yellow; padding: 0 25px 0px 25px; border: 3px solid black; }
+	
+	
+	
+	
+	
+	#wrap03{ border: 1px solid black; text-align: center;  
+			display: flex; flex-flow: column; }
+	
+	#wrap03 div{ }
+	#wrap03 .d01 { order:1; background-color: red; border: 3px solid black; }
+	#wrap03 .d02 { order:2; display:flex;  border: 1px solid black; border-top: 10px solid black; border-bottom: 10px solid black; 
+					height: 350px; }
+	#wrap03 .d03 { order:3; background-color: pink; height: 100%; border: 3px solid black; }
+	
+	.color06{ background-color: skyblue; height: 50px; display: flex; align-items: center; justify-content: center; }
+	.color07{ background-color: yellow; height: 50px; display: flex; align-items: center; justify-content: center; margin: 30px 0 30px 0; }
+	.color08{ background-color: pink; height: 50px; display: flex; align-items: center; justify-content: center;  }
+	.color09{ order: 2; background-color: green; padding: 0 10px 0px 10px; text-align: center; border: 3px solid black; width:60%; }
+	.color10{ order: 1; background-color: yellow; border: 3px solid black; width: 20%; }
+	
+	</style>
+
+</head>
+<body>
+
+<div id="wrap" style="width:900px; margin: 0 auto;">
+
+	<div class="d01" ><h1>&lt;header&gt;</h1></div>
+	
+	<div class="d02" >
+		<div class="color01"><h1>&lt;nav&gt;</h1></div>
+		<div class="color02"><h1>&lt;section&gt;</h1></div>
+	</div>
+	
+	<div class="d03"><h1>&lt;footer&gt;</h1></div>
+</div>
+
+<hr>
+
+<div id="wrap02" style="width:900px; margin: 0 auto;">
+
+	<div class="d01" ><h1>&lt;header&gt;</h1></div>
+	
+	<div class="d02" >
+		<div class="color03"><h1>&lt;nav&gt;</h1></div>
+		<div class="color04"><h1>&lt;section&gt;</h1></div>
+		<div class="color05"><h1>&lt;aside&gt;</h1></div>
+	</div>
+	
+	<div class="d03"><h1>&lt;footer&gt;</h1></div>
+</div>
+
+<hr>
+
+<div id="wrap03" style="width:900px; margin: 0 auto;">
+
+	<div class="d01" ><h1>&lt;header&gt;</h1></div>
+	
+	<div class="d02" >
+		<div class="color10"><h1>&lt;nav&gt;</h1></div>
+		<div class="color09">
+			<h1>&lt;section&gt;</h1>
+			<div class="color06"><h4>header</h4></div>
+			<div class="color07"><h4>article</h4></div>
+			<div class="color08"><h4>footer</h4></div>
+		</div>
+		<div class="color05"><h1>&lt;aside&gt;</h1></div>
+	</div>
+	
+	<div class="d03"><h1>&lt;footer&gt;</h1></div>
+</div>
+
+
+
+</body>
+</html>
