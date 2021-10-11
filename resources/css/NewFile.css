@@ -1,0 +1,63 @@
+* {margin: 0;}
+.wrap{ width: 1920px; margin: 0 auto; }
+.full{ height: 1080px; background-color: #EDEDED; }
+.main { margin: 20px; color: black; text-decoration: none;
+		font-size: 50px; text-align: center; padding: 20px;
+		font-family: "Monotype Corsiva";
+}
+.nav-wrap{ display: flex; justify-content: space-between; }
+nav {  width:1920px;  position: fixed; background-color: #EDEDED; }
+nav ul { list-style: none; display: flex; margin-top: 30px; 
+		 margin-right: 30px; margin-bottom: 30px; font-size: 25px;
+		 font-family: "Monotype Corsiva";
+}
+nav ul li { margin: 0 3px; padding: 8px 15px; 
+			display: flex; align-items: center; justify-content: center;
+}
+nav ul li a{ text-decoration: none; color: black; }
+nav ul li a:hover{ color: gray; padding-bottom: 3px;
+			border-bottom: 1px solid gray; transition: all 0.25s;
+}
+
+.view{  color:white; }
+
+.h1{  
+	 width:700px; height: 690px; align-items: center;
+	 display: flex; flex-flow:column; justify-content: center;
+}
+
+.sub{ display: flex; 
+		align-items: center; justify-content: center}
+
+.inner{ background-color: #353535; color:white; text-align:center; 
+	 margin-left: 140px; margin-top: 130px;  font-family: "Monotype Corsiva";
+	 width: 700px; height: 650px;}
+
+.inner1{ background-image: url("../images/ma.PNG");
+	background-size: 1037px 902px;
+	 margin-top: 110px; width: 1000px; height: 700px; padding: 100px;
+	 }
+
+
+
+
+
+
+
+
+/* 참고 사이트
+https://ko.wix.com/website-template/view/html/2728?siteId=44b0717e-7411-4cae-b4e9-710a8cf9e828&metaSiteId=d3a7b062-1794-4796-8c09-dfbd284ea09e&originUrl=https%3A%2F%2Fko.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F17 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
